@@ -14,6 +14,8 @@
 		836583A32B69842700DA0BEE /* LottieAnimationsListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836583A22B69842700DA0BEE /* LottieAnimationsListUITests.swift */; };
 		836583A52B69842700DA0BEE /* LottieAnimationsListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836583A42B69842700DA0BEE /* LottieAnimationsListUITestsLaunchTests.swift */; };
 		836583B62B6985E900DA0BEE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 836583B52B6985E900DA0BEE /* Lottie */; };
+		836583B82B69864100DA0BEE /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836583B72B69864100DA0BEE /* LottieView.swift */; };
+		836583BA2B69868200DA0BEE /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836583B92B69868200DA0BEE /* AnimationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		8365839E2B69842700DA0BEE /* LottieAnimationsListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottieAnimationsListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836583A22B69842700DA0BEE /* LottieAnimationsListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListUITests.swift; sourceTree = "<group>"; };
 		836583A42B69842700DA0BEE /* LottieAnimationsListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		836583B72B69864100DA0BEE /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		836583B92B69868200DA0BEE /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 		836583B32B6984E100DA0BEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				836583B72B69864100DA0BEE /* LottieView.swift */,
+				836583B92B69868200DA0BEE /* AnimationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				836583882B69842400DA0BEE /* LottieAnimationsListApp.swift in Sources */,
+				836583B82B69864100DA0BEE /* LottieView.swift in Sources */,
+				836583BA2B69868200DA0BEE /* AnimationsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
